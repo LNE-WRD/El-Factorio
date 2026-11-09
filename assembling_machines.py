@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
-
-QUALITY = {"normal": 1.0, "uncommon": 1.3, "rare": 1.6, "epic": 1.9, "legendary": 2.5}
+from primary.modules import QUALITY
 
 @dataclass
 class AssemblingMachine:
